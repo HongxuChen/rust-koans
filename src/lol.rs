@@ -1,0 +1,11 @@
+koan!("the_truth");
+koan!("addition");
+koan!("boolean");
+koan!("array");
+koan!("integer");
+koan!("vec");
+koan!("hash_map");
+koan!("struct");
+koan!("ownership");
+koan!("traits");
+koan!("string");

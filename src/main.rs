@@ -22,6 +22,7 @@ fn main() {
     println!("{}", message);
 }
 
+#[allow(unused_macros)]
 macro_rules! koan {
     ($name:expr) => (
         include!(concat!("koans/", $name, ".rs"));
@@ -34,7 +35,7 @@ fn seek_the_path() -> bool {
     let mut path = OpenOptions::new()
         .read(true)
         .write(true)
-        .open("src/path_to_enlightenment.rs")
+        .open("src/lol.rs")
         .unwrap();
     let passed_count = BufReader::new(&path).lines().count();
 
@@ -64,4 +65,4 @@ fn walk_the_path() -> bool {
 }
 
 #[cfg(test)]
-mod path_to_enlightenment;
+mod lol;
