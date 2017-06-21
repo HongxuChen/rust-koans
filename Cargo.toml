@@ -1,5 +1,13 @@
 [package]
 name = "koans"
-version = "0.2.0"
+version = "0.3.0"
 authors = ["Mike MacDonald <crazymykl@gmail.com>"]
 build = "build.rs"
+description = "Nil"
+documentation = "https://github.com/HongxuChen/rust-koans"
+homepage = "https://github.com/HongxuChen/rust-koans"
+repository = "https://github.com/HongxuChen/rust-koans"
+license = "MIT"
+readme = "README.md"
+keywords = ["koans"]
+categories = ["koans"]
